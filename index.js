@@ -8,6 +8,6 @@ function findMatching(drivers, string){
 
 function fuzzyMatch(drivers, string){
   return drivers.filter(str => {
-    return str[0].toLowerCase() === string.toLowerCase()
+    return str[0].toLowerCase() === string[0].toLowerCase()
   })
 }
