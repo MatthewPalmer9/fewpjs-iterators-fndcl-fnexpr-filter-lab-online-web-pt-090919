@@ -5,3 +5,9 @@ function findMatching(drivers, string){
     return e.toLowerCase() === string.toLowerCase()
   })
 }
+
+function fuzzyMatch(drivers, string){
+  return.driver.filter(e => {
+    return 
+  })
+}
