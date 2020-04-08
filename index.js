@@ -2,6 +2,6 @@
 
 function findMatch(drivers, string){
   return driver.filter(e => {
-    return 
+    return e.toLowerCase
   })
 }
